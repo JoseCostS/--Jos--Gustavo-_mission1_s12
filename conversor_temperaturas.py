@@ -3,10 +3,12 @@ class ConversorTemperaturas:
         pass
     
     def converter_c_para_f(valor_c):
-        valor_f = valor_c * 1,8 + 32
+        valor_f = valor_c * 1.8 + 32
         return valor_f
     
     def converter_f_para_c():
         pass
     
    
+resultado=ConversorTemperaturas.converter_c_para_f(44)
+print(resultado)
